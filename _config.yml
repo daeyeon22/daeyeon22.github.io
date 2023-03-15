@@ -91,12 +91,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ph.D. Degree
-        caption: 2020 - 2023
-        sub_title: Department of Electrical Engineering
+        title: POSTECH 
+        caption: Sep. 2020 - Feb. 2023
+        sub_title: Ph.D. Electrical Engineering
         quote: >
         description: | # this will include new lines to allow paragraphs
-            Pohang University of Science and Technology (Postech)
+            - Pohang University of Science and Technology (Postech)
+            - Thesis: Routability Prediction and Optimization using Machine Learning Techniques [link]()
       - layout: left
         title: Postech
         caption: 2018 - 2020
