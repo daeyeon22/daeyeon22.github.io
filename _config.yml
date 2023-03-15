@@ -48,7 +48,8 @@ linkedin_username: jameswgrant
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-My name is Daeyeon Kim. I earned my Ph.D. in Electronic Engineering from Postech and am currently working as a Staff Engineer at Samsung Electronics. I've researched machine learning techniques to improve the performance of electronic design automation (EDA) softwares. I have experience making softwares using C/C++, Python, Tcl. 
+    My name is Daeyeon Kim. I earned my Ph.D. in Electronic Engineering from Postech and am currently working as a Staff Engineer at Samsung Electronics. I've researched machine learning techniques to improve the performance of electronic design automation (EDA) softwares. I have experience making softwares using C/C++, Python, Tcl.  
+
     I'm advanced in programming: <mark>C/C++</mark>, <mark>Python</mark>, <mark>Tcl</mark>
     I've experience in EDA softwares: <mark>Synopsys/DesignCompiler</mark>, <mark>Synopsys/PrimeTime</mark>, <mark>Synopsys/ICC2</mark>, <mark>Cadence/Innovus</mark>
 
