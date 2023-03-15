@@ -1,140 +1,36 @@
-# Site
-repository: https://daeyeon22.github.io/
-favicon: images/favicon.ico
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# Content configuration version
-version: 2
+# Site Settings
+title: My Resume
+url: 'http://webjeda.com'
 
-# Personal info
-name: Daeyeon Kim
-title: Staff Engineer @ Samsung Electronics
-email: daey3on.kim@gmail.com, dye0n.kim@samsung.com
-website: https://daeyeon22.github.io/
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
 
-# Dark Mode (true/false/never)
-darkmode: false
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Social links
-#twitter_username: facespics
-github_username:  daeyeon22
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Tracker
+analytics: UA-83979019-1
 
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-    My name is Daeyeon Kim. I earned my Ph.D. in Electronic Engineering from Postech and am currently working as a Staff Engineer at Samsung Electronics. I've researched machine learning techniques to improve the performance of electronic design automation (EDA) softwares. I have experience making softwares using C/C++, Python, Tcl.  
-
-    Skills in programming: <mark>C/C++</mark>, <mark>Python</mark>, <mark>Tcl</mark>
-    
-    Experiences in EDA softwares: <mark>Synopsys/DesignCompiler</mark>, <mark>Synopsys/PrimeTime</mark>, <mark>Synopsys/ICC2</mark>, <mark>Cadence/Innovus</mark>
-
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: POSTECH 
-        caption: Sep. 2020 - Feb. 2023
-        sub_title: Ph.D. Electrical Engineering
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-            - Pohang University of Science and Technology (Postech)
-            - Thesis: Routability Prediction and Optimization using Machine Learning Techniques [link]()
-      - layout: left
-        title: Postech
-        caption: 2018 - 2020
-        sub_title: 
-        quote: >
-            M.S. Degree in Department of Electrical Engineering
-        description: | # this will include new lines to allow paragraphs
-            Pohang University of Science and Technology (Postech)
-      - layout: left
-        title: Ulsan National Institute of Science and Technology (UNIST)
-        caption: 2011 - 2018
-        sub_title: B.S. Degree in Department of Electrical & Computer Engineering
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-    
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-plugins:
- - jekyll-seo-tag
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
