@@ -91,9 +91,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Postech
+        title: Ph.D. Degree
         caption: 2020 - 2023
-        sub_title: Ph.D. Degree in Department of Electrical Engineering
+        sub_title: Department of Electrical Engineering
         quote: >
         description: | # this will include new lines to allow paragraphs
             Pohang University of Science and Technology (Postech)
