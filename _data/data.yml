@@ -7,153 +7,120 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Daeyeon Kim
+    tagline: Staff Engineer @ Samsung Electronics
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: daey3on.kim@gmail.com, dye0n.kim@samsung.com
+    #phone: 
+    #timezone: America/Cancun Timezone
+    #citizenship:
+    #website: blog.webjeda.com #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Korean
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Advanced
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Electronic Design Automation
           link:
 
-        - item: Snowboarding
+        - item: Machine Learning
           link:
 
-        - item: Cooking
+        - item: Design Technology Co-optimization
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        Hello, my name is Kim Dae-yeon. I obtained a Ph.D. in Electrical Engineering from POSTECH and am currently working as a Staff Engineer at Samsung Electronics. I am working on developing algorithms and machine learning techniques to improve the performance of electronic design automation (EDA) software. I am skilled in programming languages such as C++ and Python, and I have experience in open source development using these languages.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Ph.D. in Electrical Engineering
+        university: POSTECH
+        time: 2020 - 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            #Describe your study here lorem ipsum dolor sit amet, consectetuer
+            #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+            #sociis natoque penatibus et magnis dis parturient montes, nascetur
+            #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            #pretium quis, sem.
+            #- Bullet point
+            #- Bullet point
+      - degree: MS. in Electrical Engineering
+        university: POSTECH
+        time: 2018 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      
+      - degree: BS. in Electrical and Computer Engineering
+        university: UNIST
+        time: 2011 - 2018
+        details: |
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Staff Engineer
+        time: 2023 - Present
+        company: Samsung Electronics, Hwaseung-si 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+      - role: Research Intern
+        time: 2017 - 2018
+        company: University of California San Diego 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      
+      - role: Military Service
+        time: 2013 - 2015
+        company: Republic of Korea Army, Hwacheon-gun
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
 projects:
-    title: Projects
+    title: Awards
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: ""
+        link:
+        tagline:
+
+      - title: "제 27회 한국 반도체 학술대회 우수 포스터상 (VLSI-CAD)"
+        link:
+        tagline:
+
+      - title: ICCAD 2019 CAD Contest: LEF/DEF-Based OpenSource Global Router
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Third Placed Award"
 
-      - title: DevStudio
+      - title: ISPD 2019 CAD Contest: Initial Detailed Routing
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Third Placed Award"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+     
 oss:
     title: OSS Contributions
     intro: >
@@ -161,39 +128,72 @@ oss:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
+      - title: Artificial Netlist Generator
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: ""
 
-      - title: Atom
+      - title: 
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: 
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: "Routability Prediction using Deep Hierarchical Classification and Regression"
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Daeyeon Kim, Jakang Lee, and Seokhyeong Kang
+        conference: Design, Automation & Test in Europe Conference & Exhibition (DATE), 2023
+      
+      - title: "RL-Legalizer: Reinforcement Learning-based Cell Priority Optimization in Mixed-Height Standard Cell Legalization"
+        link: "#"
+        authors: Sung-Yun Lee, Seonghyeon Park, Daeyeon Kim, Minjae Kim, Tuyen P. Le and Seokhyeong Kang
+        conference: Design, Automation & Test in Europe Conference & Exhibition (DATE), 2023
+      
+      - title: "A Fast and Scalable Qubit-Mapping Method for Noisy Intermediate-Scale Quantum Computers"
+        link: 
+        authors: Sunghye Park, Daeyeon Kim, Minhyuk Kweon, Jae-Yoon Sim, and Seokhyeong Kang
+        conference: Design Automation Conference (DAC), 2022
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "GAN-Dummy Fill: Timing-aware Dummy Fill Method using GAN"
+        link: 
+        authors: Myong Kong, Daeyeon Kim, Minhyuk Kweon, and Seokhyeong Kang
+        conference: Great Lakes Symposium on VLSI (GLSVLSI), 2022
 
-      - title: A syntax directed compiler for Algol 60
+      - title: "Signal-Integrity-Aware Interposer Bus Routing in 2.5D Heterogeneous Integration"
+        link: 
+        authors: Sung-Yun Lee, Daeyeon Kim, Kyungjun Min, and Seokhyeong Kang
+        conference: Asia and South Pacific Design Automation Conference (ASP-DAC), 2022
+
+        
+      - title: "Machine Learning Framework for Early Routability Prediction with Artificial Netlist Generator"
+        link:
+        authors: Daeyeon Kim, Hyunjeong Kwon, Sung-Yun Lee, Seungwon Kim, Mingyu Woo, and Seokhyeong Kang
+        conference: Design, Automation & Test in Europe Conference & Exhibition (DATE), 2021.
+        
+      - title: "Extreme Low Power Technology using Ternary Arithmetic Logic Circuits via Drastic Interconnect Length Reduction"
+        link:
+        authors: Kiyung Kim, Sunmean Kim, Yongsu Lee, Daeyeon Kim, So-Young Kim, Seokhyeong Kang, and Byoung Hun Lee
+        conference: IEEE International Symposium on Multiple-Valued Logic (ISMVL), 2020
+
+      - title: "Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications"
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Daeyeon Kim, Sung-Yun Lee, Kyungjun Min, and Seokhyeong Kang
+        conference: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2022
+
+      - title: "Variation-Aware SRAM Cell Optimization Using Deep Neural Network-Based Sensitivity Analysis"
+        link:
+        authors: Hyunjeong Kwon, Daeyeon Kim, Young Hwan Kim, and Seokhyeong Kang
+        conference: IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I), 2021
+
+      - title: "Compact Topology-aware Bus Routing for Design Regularity"
+        link:
+        authors: Daeyeon Kim, Sanggi Do, Sung-Yun Lee, and Seokhyeong Kang
+        conference: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020
 
 skills:
     title: Skills &amp; Proficiency
